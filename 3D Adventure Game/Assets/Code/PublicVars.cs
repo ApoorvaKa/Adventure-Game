@@ -5,4 +5,5 @@ using UnityEngine;
 public class PublicVars : MonoBehaviour
 {
     public static string currentRoom = "";
+    public static int numKeys = 0;
 }

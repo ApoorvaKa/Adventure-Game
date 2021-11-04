@@ -26,4 +26,11 @@ public class Player : MonoBehaviour
             }
         }
     }
+    void OnTriggerEnter(Collider other) {
+        print("key collected");
+        if (other.gameObject.CompareTag("Key")){
+            Destroy(other.gameObject);
+            PublicVars.numKeys++;
+        }
+    }
 }

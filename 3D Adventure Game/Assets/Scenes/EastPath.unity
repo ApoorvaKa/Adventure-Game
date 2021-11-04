@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311915, g: 0.3807396, b: 0.35872662, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1924,6 +1924,63 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2122369445}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1413670788811107144
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1413670788624557905, guid: adad34dac5cb940f28679ea2b4e44aaf, type: 3}
+      propertyPath: m_Name
+      value: Key
+      objectReference: {fileID: 0}
+    - target: {fileID: 1413670788624557909, guid: adad34dac5cb940f28679ea2b4e44aaf, type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1413670788624557909, guid: adad34dac5cb940f28679ea2b4e44aaf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.2768593
+      objectReference: {fileID: 0}
+    - target: {fileID: 1413670788624557909, guid: adad34dac5cb940f28679ea2b4e44aaf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 1413670788624557909, guid: adad34dac5cb940f28679ea2b4e44aaf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.8869529
+      objectReference: {fileID: 0}
+    - target: {fileID: 1413670788624557909, guid: adad34dac5cb940f28679ea2b4e44aaf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1413670788624557909, guid: adad34dac5cb940f28679ea2b4e44aaf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1413670788624557909, guid: adad34dac5cb940f28679ea2b4e44aaf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1413670788624557909, guid: adad34dac5cb940f28679ea2b4e44aaf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1413670788624557909, guid: adad34dac5cb940f28679ea2b4e44aaf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1413670788624557909, guid: adad34dac5cb940f28679ea2b4e44aaf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1413670788624557909, guid: adad34dac5cb940f28679ea2b4e44aaf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: adad34dac5cb940f28679ea2b4e44aaf, type: 3}
 --- !u!1001 &3432387485717590255
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1941,7 +1998,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2024072585865133883, guid: 3536a32817fa50e4397e15397093f30e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.64
+      value: 0.63
       objectReference: {fileID: 0}
     - target: {fileID: 2024072585865133883, guid: 3536a32817fa50e4397e15397093f30e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2699,6 +2756,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomGoingTo: {fileID: 6958393026026471908}
+  locked: 1
 --- !u!65 &6958393025943252157
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3664,6 +3722,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomGoingTo: {fileID: 6958393027006554980}
+  locked: 1
 --- !u!65 &6958393026044696779
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4213,6 +4272,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomGoingTo: {fileID: 6958393027719710327}
+  locked: 1
 --- !u!33 &6958393026150649006
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -5053,6 +5113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomGoingTo: {fileID: 6958393025934094696}
+  locked: 1
 --- !u!65 &6958393026461690303
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6227,6 +6288,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomGoingTo: {fileID: 746749477}
+  locked: 1
 --- !u!65 &6958393026772490411
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6478,6 +6540,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomGoingTo: {fileID: 6958393026518121877}
+  locked: 1
 --- !u!4 &6958393026919205811
 Transform:
   m_ObjectHideFlags: 0
@@ -6758,6 +6821,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomGoingTo: {fileID: 6958393025934094696}
+  locked: 1
 --- !u!4 &6958393026949600825
 Transform:
   m_ObjectHideFlags: 0
@@ -7809,6 +7873,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomGoingTo: {fileID: 6958393025964596334}
+  locked: 1
 --- !u!1 &6958393027076135483
 GameObject:
   m_ObjectHideFlags: 0
@@ -8451,6 +8516,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomGoingTo: {fileID: 6958393025964596334}
+  locked: 1
 --- !u!4 &6958393027330928475
 Transform:
   m_ObjectHideFlags: 0
@@ -8541,6 +8607,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomGoingTo: {fileID: 746749477}
+  locked: 1
 --- !u!1 &6958393027397329892
 GameObject:
   m_ObjectHideFlags: 0
@@ -8622,6 +8689,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomGoingTo: {fileID: 6958393027888804353}
+  locked: 1
 --- !u!33 &6958393027418730030
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -9254,6 +9322,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomGoingTo: {fileID: 6958393026026471908}
+  locked: 1
 --- !u!65 &6958393027523778248
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10028,6 +10097,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomGoingTo: {fileID: 6958393026518121877}
+  locked: 1
 --- !u!4 &6958393027717209655
 Transform:
   m_ObjectHideFlags: 0
@@ -10242,6 +10312,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomGoingTo: {fileID: 6958393026038808718}
+  locked: 1
 --- !u!4 &6958393027775038167
 Transform:
   m_ObjectHideFlags: 0
@@ -10602,6 +10673,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomGoingTo: {fileID: 6958393027719710327}
+  locked: 1
 --- !u!33 &6958393027880660950
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -10821,6 +10893,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomGoingTo: {fileID: 6958393026038808718}
+  locked: 1
 --- !u!65 &6958393027910881885
 BoxCollider:
   m_ObjectHideFlags: 0
