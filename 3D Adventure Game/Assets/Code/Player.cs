@@ -32,5 +32,9 @@ public class Player : MonoBehaviour
             Destroy(other.gameObject);
             PublicVars.numKeys++;
         }
+        if(other.gameObject.name =="GreenKey"){
+            Destroy(other.gameObject);
+            PublicVars.greenKey = true;
+        }
     }
 }
