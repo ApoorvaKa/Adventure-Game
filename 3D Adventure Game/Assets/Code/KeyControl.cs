@@ -15,6 +15,11 @@ public class KeyControl : MonoBehaviour
 
     public Text keyCount;
 
+    void Start()
+    {
+        
+    }
+
     void Update()
     {
         if(PublicVars.greenKey)
@@ -42,5 +47,5 @@ public class KeyControl : MonoBehaviour
             blueKey.gameObject.SetActive(false);
         }
         keyCount.text = PublicVars.numKeys.ToString();
-    }
+        }
 }

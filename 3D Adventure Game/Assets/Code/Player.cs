@@ -36,5 +36,18 @@ public class Player : MonoBehaviour
             Destroy(other.gameObject);
             PublicVars.greenKey = true;
         }
+        if(other.gameObject.name =="BlueKey"){
+            Destroy(other.gameObject);
+            PublicVars.blueKey = true;
+        }
+        if(other.gameObject.name =="RedKey"){
+            Destroy(other.gameObject);
+            PublicVars.redKey = true;
+        }
+        wait();
+    }
+
+    IEnumerator wait() {
+        yield return new WaitForSeconds(.7f);
     }
 }
