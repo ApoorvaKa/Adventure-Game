@@ -9,4 +9,8 @@ public class PublicVars : MonoBehaviour
     public static bool greenKey = false;
     public static bool redKey = false;
     public static bool blueKey = false;
+    
+    //health system
+    public static int life = 1;
+    public static int numHearts = 3;
 }
