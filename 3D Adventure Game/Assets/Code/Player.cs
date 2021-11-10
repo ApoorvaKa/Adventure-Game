@@ -40,29 +40,33 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButtonDown(0)){
-            RaycastHit hit;
-            if(Physics.Raycast(mainCam.ScreenPointToRay(Input.mousePosition), out hit, 200)){
-                _navMeshAgent.destination = hit.point;
-            }
-        }
-
-        //health system
-        if (PublicVars.life > PublicVars.numHearts){
-            PublicVars.life = PublicVars.numHearts;
-        }
-        for (int i = 0; i < hearts.Length; i++){
-            if (i < PublicVars.life){
-                hearts[i].sprite = fHeart;
-            }
-            else{
-                hearts[i].sprite = eHeart;
+        // player movement wrapped in pause check to make sure 
+        // player does not move when resume button is clicked
+        if(PublicVars.paused == false){
+            if(Input.GetMouseButtonDown(0)){
+                RaycastHit hit;
+                if(Physics.Raycast(mainCam.ScreenPointToRay(Input.mousePosition), out hit, 200)){
+                    _navMeshAgent.destination = hit.point;
+                }
             }
 
-            if (i >=  PublicVars.numHearts){
-                hearts[i].enabled = false;
-            } else {
-                hearts[i].enabled = true;
+            //health system
+            if (PublicVars.life > PublicVars.numHearts){
+                PublicVars.life = PublicVars.numHearts;
+            }
+            for (int i = 0; i < hearts.Length; i++){
+                if (i < PublicVars.life){
+                    hearts[i].sprite = fHeart;
+                }
+                else{
+                    hearts[i].sprite = eHeart;
+                }
+
+                if (i >=  PublicVars.numHearts){
+                    hearts[i].enabled = false;
+                } else {
+                    hearts[i].enabled = true;
+                }
             }
         }
     }
