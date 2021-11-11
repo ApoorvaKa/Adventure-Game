@@ -7,8 +7,8 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public GameObject pauseMenu;
+    public GameObject pauseBtn;
     public GameObject quitButton;
-
 
     // Start is called before the first frame update
     void Start()
@@ -36,19 +36,28 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void Resume(){
-        pauseMenu.SetActive(false);
-        PublicVars.paused = false;
-        Time.timeScale = 1;
+    public void Pause()
+    {
+        PublicVars.paused = true;
+        pauseBtn.SetActive(false);
+        pauseMenu.SetActive(true);
     }
 
-    public void Restart(){
+    public void Resume()
+    {
+        PublicVars.paused = false;
+        pauseMenu.SetActive(false);
+        pauseBtn.SetActive(true);
+    }
+
+    public void Restart()
+    {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
-    public void Quit(){
+    public void Quit()
+    {
         Application.Quit();
-        print("Quit called");
     }
 
 }

@@ -870,7 +870,7 @@ GameObject:
   - component: {fileID: 6958393027361998296}
   - component: {fileID: 6958393027361998297}
   m_Layer: 0
-  m_Name: Room
+  m_Name: RoomRed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -926,7 +926,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8d31cc58b0ab04debb3e06c5404e3974, type: 2}
+  - {fileID: 2100000, guid: 3ff3150d9c0dfa741a3eb5b5228b64be, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
