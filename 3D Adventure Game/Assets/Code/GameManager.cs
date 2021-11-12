@@ -7,7 +7,9 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public GameObject pauseMenu;
+    public GameObject deathUI;
     public GameObject pauseBtn;
+    public GameObject deathQuitBtn;
     public GameObject quitButton;
 
     // Start is called before the first frame update
@@ -17,10 +19,12 @@ public class GameManager : MonoBehaviour
         
         #if UNITY_WEBGL
             quitButton.SetActive(false);
+            deathQuitBtn.SetActive(false);
         #endif
 
         #if UNITY_EDITOR
             quitButton.SetActive(false);
+            deathQuitBtn.SetActive(true);
         #endif
     }
 
@@ -36,6 +40,14 @@ public class GameManager : MonoBehaviour
                 Pause();
             }
         }
+    }
+
+    public void HandleDeath()
+    {
+        pauseBtn.SetActive(false);
+        Time.timeScale = 0;
+        deathUI.SetActive(true);
+
     }
 
     public void Pause()
@@ -62,6 +74,11 @@ public class GameManager : MonoBehaviour
     public void Quit()
     {
         Application.Quit();
+    }
+
+    public void TitleScreen()
+    {
+        SceneManager.LoadScene("TitleScreen");
     }
 
 }

@@ -3633,7 +3633,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 1056449359}
+  deathUI: {fileID: 1975013055}
   pauseBtn: {fileID: 1825436365}
+  deathQuitBtn: {fileID: 1883306639}
   quitButton: {fileID: 134138038}
 --- !u!114 &326843432
 MonoBehaviour:
@@ -15699,6 +15701,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1880313906}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1883306639 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8818863823102362461, guid: e023b9b6cb661794194d81e7a5a00f60, type: 3}
+  m_PrefabInstance: {fileID: 663168615210363011}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1889031909
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16440,6 +16447,11 @@ Transform:
   m_Father: {fileID: 764965047}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1975013055 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2778689298433706605, guid: e023b9b6cb661794194d81e7a5a00f60, type: 3}
+  m_PrefabInstance: {fileID: 663168615210363011}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2015534056
 GameObject:
   m_ObjectHideFlags: 0
@@ -17928,13 +17940,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1071286791488681624, guid: e023b9b6cb661794194d81e7a5a00f60, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 326843431}
+    - target: {fileID: 1071286791488681624, guid: e023b9b6cb661794194d81e7a5a00f60, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: TitleScreen
+      objectReference: {fileID: 0}
     - target: {fileID: 3345878187389478847, guid: e023b9b6cb661794194d81e7a5a00f60, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4427112799353080105, guid: e023b9b6cb661794194d81e7a5a00f60, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4862148086038307443, guid: e023b9b6cb661794194d81e7a5a00f60, type: 3}
       propertyPath: m_RootOrder
@@ -17947,6 +17967,14 @@ PrefabInstance:
     - target: {fileID: 6300207183064973516, guid: e023b9b6cb661794194d81e7a5a00f60, type: 3}
       propertyPath: m_RootOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6906927615316136542, guid: e023b9b6cb661794194d81e7a5a00f60, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 326843431}
+    - target: {fileID: 6906927615316136542, guid: e023b9b6cb661794194d81e7a5a00f60, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Restart
       objectReference: {fileID: 0}
     - target: {fileID: 7940875162223764122, guid: e023b9b6cb661794194d81e7a5a00f60, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -17963,6 +17991,14 @@ PrefabInstance:
     - target: {fileID: 7940875162223764122, guid: e023b9b6cb661794194d81e7a5a00f60, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8278179211028605159, guid: e023b9b6cb661794194d81e7a5a00f60, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 326843431}
+    - target: {fileID: 8278179211028605159, guid: e023b9b6cb661794194d81e7a5a00f60, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Quit
       objectReference: {fileID: 0}
     - target: {fileID: 8450726240927225485, guid: e023b9b6cb661794194d81e7a5a00f60, type: 3}
       propertyPath: m_RootOrder

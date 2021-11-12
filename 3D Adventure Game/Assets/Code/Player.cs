@@ -82,7 +82,8 @@ public class Player : MonoBehaviour
 
         if (PublicVars.life <= 0){
             resetVar();
-            StartCoroutine(Reset());
+            GameObject.Find("Manager").GetComponent<GameManager>().HandleDeath();
+            // StartCoroutine(Reset());
         }
     }
     IEnumerator Reset() {
@@ -91,11 +92,10 @@ public class Player : MonoBehaviour
     }
 
     void resetVar(){
-        PublicVars.currentRoom = "";
         PublicVars.numKeys = 0;
-        PublicVars.greenKey = false;
-        PublicVars.redKey = false;
-        PublicVars.blueKey = false;
+        // PublicVars.greenKey = false;
+        // PublicVars.redKey = false;
+        // PublicVars.blueKey = false;
     
     // health system
         PublicVars.life = 5;
