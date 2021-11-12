@@ -9,7 +9,10 @@ public class VictoryScene : MonoBehaviour
     void Start()
     {   
         #if UNITY_WEBGL
-        quitButton.SetActive(false);
+            quitButton.SetActive(false);
+        #endif
+        #if UNITY_EDITOR
+            quitButton.SetActive(false);
         #endif
     }
 
