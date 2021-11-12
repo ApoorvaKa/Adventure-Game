@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -69,6 +70,28 @@ public class Player : MonoBehaviour
                 }
             }
         }
+
+        if (PublicVars.life <= 0){
+            resetVar();
+            StartCoroutine(Reset());
+        }
+    }
+    IEnumerator Reset() {
+        yield return new WaitForSeconds(.5f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    void resetVar(){
+        PublicVars.currentRoom = "";
+        PublicVars.numKeys = 0;
+        PublicVars.greenKey = false;
+        PublicVars.redKey = false;
+        PublicVars.blueKey = false;
+    
+    // health system
+        PublicVars.life = 5;
+        PublicVars.numHearts = 5;
+        PublicVars.paused = false;
     }
     void OnTriggerEnter(Collider other) {
         print("key collected");
@@ -94,6 +117,7 @@ public class Player : MonoBehaviour
         }
         if(other.CompareTag("Trap")){
             PublicVars.life --;
+            StartCoroutine(_wait());
         }
         if (other.CompareTag("Monster")){
             _audioSource.PlayOneShot(explodeSnd);
