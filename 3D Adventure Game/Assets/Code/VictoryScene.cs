@@ -18,6 +18,9 @@ public class VictoryScene : MonoBehaviour
 
     public void RestartGame(){
         SceneManager.LoadScene("TitleScreen");
+        PublicVars.greenKey = false;
+        PublicVars.redKey = false;
+        PublicVars.blueKey = false;
     }
 
     public void Quit()
