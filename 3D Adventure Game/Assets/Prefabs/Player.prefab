@@ -230,7 +230,12 @@ MonoBehaviour:
   lifet: {fileID: 0}
   keyPickUpSnd: {fileID: 8300000, guid: d3ce2fdd34f59104483dd61de552614d, type: 3}
   explodeSnd: {fileID: 8300000, guid: 911464de36911ad43b20074d8f4e8624, type: 3}
-  hearts: []
+  hearts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   fHeart: {fileID: -6251682230944352461, guid: fb062a3708c58c84ea922e1fb41d58a2, type: 3}
   eHeart: {fileID: 8020143640844766479, guid: fb062a3708c58c84ea922e1fb41d58a2, type: 3}
 --- !u!195 &963111792642895471
