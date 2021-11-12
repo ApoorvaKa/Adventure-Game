@@ -33,9 +33,7 @@ public class GameManager : MonoBehaviour
 
             }
             else{
-                pauseMenu.SetActive(true);
-                PublicVars.paused = true;
-                Time.timeScale = 0;
+                Pause();
             }
         }
     }
@@ -43,6 +41,7 @@ public class GameManager : MonoBehaviour
     public void Pause()
     {
         PublicVars.paused = true;
+        Time.timeScale = 0;
         pauseBtn.SetActive(false);
         pauseMenu.SetActive(true);
     }
@@ -50,6 +49,7 @@ public class GameManager : MonoBehaviour
     public void Resume()
     {
         PublicVars.paused = false;
+        Time.timeScale = 1;
         pauseMenu.SetActive(false);
         pauseBtn.SetActive(true);
     }

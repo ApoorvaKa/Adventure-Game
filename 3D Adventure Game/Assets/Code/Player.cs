@@ -10,6 +10,7 @@ public class Player : MonoBehaviour
     NavMeshAgent _navMeshAgent;
     Camera mainCam;
 
+    public Animator _animatorSource;
 
     //health system
     public Text lifet;
@@ -36,6 +37,7 @@ public class Player : MonoBehaviour
         mainCam = Camera.main;
         //music effect
         _audioSource = GetComponent<AudioSource>();
+        _animatorSource = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -69,6 +71,13 @@ public class Player : MonoBehaviour
                     hearts[i].enabled = true;
                 }
             }
+        }
+
+        if(_navMeshAgent.velocity != Vector3.zero)
+        {
+            _animatorSource.SetBool("Moving", true);
+        } else {
+            _animatorSource.SetBool("Moving", false);
         }
 
         if (PublicVars.life <= 0){
