@@ -6,12 +6,13 @@ public class RoomChange : MonoBehaviour
 {
     Transform marker;
     string roomCheck;
+    public UnityEngine.AI.NavMeshAgent agent;
 
-    // void Start()
-    // {
-    //     marker = GameObject.Find(PublicVars.currentRoom).transform.GetChild(0);
-    //     roomCheck = PublicVars.currentRoom;
-    // }
+    void Start()
+    {
+
+        PublicVars.currentRoom = "Room1";
+    }
     void Update()
     {
         marker = GameObject.Find(PublicVars.currentRoom).transform.GetChild(0);
@@ -25,8 +26,10 @@ public class RoomChange : MonoBehaviour
 
     IEnumerator WaitMove()
     {
+        agent.speed = 0;
         this.transform.GetChild(0).gameObject.SetActive(false);
-        yield return new WaitForSeconds(.7f);
+        yield return new WaitForSeconds(.9f);
         this.transform.GetChild(0).gameObject.SetActive(true);
+        agent.speed = 6;
     }
 }
