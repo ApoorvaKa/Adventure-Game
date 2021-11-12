@@ -12,8 +12,8 @@ public class PublicVars : MonoBehaviour
     public static bool blueKey = false;
     
     // health system
-    public static int life = 1;
-    public static int numHearts = 3;
+    public static int life = 5;
+    public static int numHearts = 5;
 
     // pause menu
     public static bool paused = false;

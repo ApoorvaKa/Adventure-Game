@@ -12,10 +12,9 @@ GameObject:
   - component: {fileID: 8254662154554826549}
   - component: {fileID: 4597778419793250588}
   - component: {fileID: 4475112912367675136}
-  - component: {fileID: 3084064521732172251}
   m_Layer: 0
   m_Name: Spike (7)
-  m_TagString: Trap
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95,20 +94,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94b536c8454a8e4dbc60736416548e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!136 &3084064521732172251
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 802754714531827802}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.03000004
-  m_Height: 1.35
-  m_Direction: 1
-  m_Center: {x: -0.0000000055879354, y: 0, z: 0.000000044703476}
 --- !u!1 &2009369311736960945
 GameObject:
   m_ObjectHideFlags: 0
@@ -121,10 +106,9 @@ GameObject:
   - component: {fileID: 2518042444787049267}
   - component: {fileID: 3706965499905822781}
   - component: {fileID: 4333658947827383249}
-  - component: {fileID: 1723506960996717261}
   m_Layer: 0
   m_Name: Spike (4)
-  m_TagString: Trap
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -204,20 +188,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94b536c8454a8e4dbc60736416548e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!136 &1723506960996717261
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2009369311736960945}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.03000004
-  m_Height: 1.35
-  m_Direction: 1
-  m_Center: {x: -0.00000011920929, y: 0, z: 0.00000010430812}
 --- !u!1 &2423596712744071081
 GameObject:
   m_ObjectHideFlags: 0
@@ -230,10 +200,9 @@ GameObject:
   - component: {fileID: 5150700391891537558}
   - component: {fileID: 1127073451672475125}
   - component: {fileID: 4844384363679968811}
-  - component: {fileID: 7948741069033627930}
   m_Layer: 0
   m_Name: Spike (21)
-  m_TagString: Trap
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -313,20 +282,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94b536c8454a8e4dbc60736416548e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!136 &7948741069033627930
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2423596712744071081}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.03000004
-  m_Height: 1.35
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000013411045}
 --- !u!1 &2427034252838299277
 GameObject:
   m_ObjectHideFlags: 0
@@ -339,10 +294,9 @@ GameObject:
   - component: {fileID: 5365171265364326554}
   - component: {fileID: 5180914220152572302}
   - component: {fileID: 1877817227489794217}
-  - component: {fileID: 2194419437421572981}
   m_Layer: 0
   m_Name: Spike
-  m_TagString: Trap
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -422,20 +376,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94b536c8454a8e4dbc60736416548e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!136 &2194419437421572981
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2427034252838299277}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.03000004
-  m_Height: 1.35
-  m_Direction: 1
-  m_Center: {x: 0.00000011920929, y: 0, z: 0.00000010430812}
 --- !u!1 &2454984574583417924
 GameObject:
   m_ObjectHideFlags: 0
@@ -448,10 +388,9 @@ GameObject:
   - component: {fileID: 1889620202160955648}
   - component: {fileID: 2679481320123109188}
   - component: {fileID: 5877372945235914038}
-  - component: {fileID: 1832746953865326}
   m_Layer: 0
   m_Name: Spike (18)
-  m_TagString: Trap
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -531,20 +470,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94b536c8454a8e4dbc60736416548e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!136 &1832746953865326
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2454984574583417924}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.03000004
-  m_Height: 1.35
-  m_Direction: 1
-  m_Center: {x: -0.000000059604645, y: 0, z: -0.00000007450581}
 --- !u!1 &2515702783877801263
 GameObject:
   m_ObjectHideFlags: 0
@@ -557,10 +482,9 @@ GameObject:
   - component: {fileID: 3107933259429168771}
   - component: {fileID: 494241250187442973}
   - component: {fileID: 7022212113168120325}
-  - component: {fileID: 8731681117089609182}
   m_Layer: 0
   m_Name: Spike (22)
-  m_TagString: Trap
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -640,20 +564,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94b536c8454a8e4dbc60736416548e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!136 &8731681117089609182
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2515702783877801263}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.03000004
-  m_Height: 1.35
-  m_Direction: 1
-  m_Center: {x: -0.0000000055879354, y: 0, z: -0.00000013411045}
 --- !u!1 &2529868280631277018
 GameObject:
   m_ObjectHideFlags: 0
@@ -666,10 +576,9 @@ GameObject:
   - component: {fileID: 8317794445942351528}
   - component: {fileID: 5578487696446729694}
   - component: {fileID: 3676233287335377346}
-  - component: {fileID: 219976300791764703}
   m_Layer: 0
   m_Name: Spike (16)
-  m_TagString: Trap
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -749,20 +658,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94b536c8454a8e4dbc60736416548e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!136 &219976300791764703
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2529868280631277018}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.03000004
-  m_Height: 1.35
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000007450581}
 --- !u!1 &2936498526574101752
 GameObject:
   m_ObjectHideFlags: 0
@@ -775,10 +670,9 @@ GameObject:
   - component: {fileID: 2943453521289371910}
   - component: {fileID: 5079832686766100568}
   - component: {fileID: 5483281660323223319}
-  - component: {fileID: 1989372017706238290}
   m_Layer: 0
   m_Name: Spike (2)
-  m_TagString: Trap
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -858,20 +752,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94b536c8454a8e4dbc60736416548e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!136 &1989372017706238290
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2936498526574101752}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.03000004
-  m_Height: 1.35
-  m_Direction: 1
-  m_Center: {x: -0.0000000055879354, y: 0, z: 0.00000010430812}
 --- !u!1 &3146202144553620131
 GameObject:
   m_ObjectHideFlags: 0
@@ -884,7 +764,7 @@ GameObject:
   - component: {fileID: 7062465364168280573}
   - component: {fileID: 3356537219524839780}
   - component: {fileID: 5728476401045935366}
-  - component: {fileID: 1867526438359105808}
+  - component: {fileID: 3716324490347305397}
   m_Layer: 0
   m_Name: Spike (12)
   m_TagString: Trap
@@ -967,8 +847,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94b536c8454a8e4dbc60736416548e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!136 &1867526438359105808
-CapsuleCollider:
+--- !u!65 &3716324490347305397
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -977,10 +857,9 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.03000004
-  m_Height: 1.35
-  m_Direction: 1
-  m_Center: {x: -0.0000000055879354, y: 0, z: -0.00000001559966}
+  serializedVersion: 2
+  m_Size: {x: 1.3651028, y: 1.285013, z: 1.317772}
+  m_Center: {x: 0.039296675, y: -0.03249356, z: 0.004555463}
 --- !u!1 &3330392741436933552
 GameObject:
   m_ObjectHideFlags: 0
@@ -993,10 +872,9 @@ GameObject:
   - component: {fileID: 8636937434029069659}
   - component: {fileID: 916749023013672152}
   - component: {fileID: 6585797206934773784}
-  - component: {fileID: 2480298124536085946}
   m_Layer: 0
   m_Name: Spike (6)
-  m_TagString: Trap
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1076,20 +954,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94b536c8454a8e4dbc60736416548e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!136 &2480298124536085946
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3330392741436933552}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.03000004
-  m_Height: 1.35
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: 0.000000044703476}
 --- !u!1 &3460698961538234178
 GameObject:
   m_ObjectHideFlags: 0
@@ -1102,10 +966,9 @@ GameObject:
   - component: {fileID: 4646504204022426398}
   - component: {fileID: 1899058669444449811}
   - component: {fileID: 7351718230518890532}
-  - component: {fileID: 386582930018943232}
   m_Layer: 0
   m_Name: Spike (13)
-  m_TagString: Trap
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1185,20 +1048,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94b536c8454a8e4dbc60736416548e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!136 &386582930018943232
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3460698961538234178}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.03000004
-  m_Height: 1.35
-  m_Direction: 1
-  m_Center: {x: -0.000000059604645, y: 0, z: -0.00000001559966}
 --- !u!1 &3531422234618674530
 GameObject:
   m_ObjectHideFlags: 0
@@ -1211,10 +1060,9 @@ GameObject:
   - component: {fileID: 669676860811976808}
   - component: {fileID: 3927089064793317634}
   - component: {fileID: 2637324392056970263}
-  - component: {fileID: 279309271410592283}
   m_Layer: 0
   m_Name: Spike (9)
-  m_TagString: Trap
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1294,20 +1142,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94b536c8454a8e4dbc60736416548e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!136 &279309271410592283
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3531422234618674530}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.03000004
-  m_Height: 1.35
-  m_Direction: 1
-  m_Center: {x: -0.00000011920929, y: 0, z: 0.000000044703476}
 --- !u!1 &3588507449259755325
 GameObject:
   m_ObjectHideFlags: 0
@@ -1320,10 +1154,9 @@ GameObject:
   - component: {fileID: 698988476562727220}
   - component: {fileID: 34474704715250779}
   - component: {fileID: 599797927926687430}
-  - component: {fileID: 4500898383925492660}
   m_Layer: 0
   m_Name: Spike (15)
-  m_TagString: Trap
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1403,20 +1236,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94b536c8454a8e4dbc60736416548e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!136 &4500898383925492660
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3588507449259755325}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.03000004
-  m_Height: 1.35
-  m_Direction: 1
-  m_Center: {x: 0.00000011920929, y: 0, z: -0.00000007450581}
 --- !u!1 &4354620695772734047
 GameObject:
   m_ObjectHideFlags: 0
@@ -1429,10 +1248,9 @@ GameObject:
   - component: {fileID: 5768522765539222368}
   - component: {fileID: 263268680423979680}
   - component: {fileID: 5467615343388288504}
-  - component: {fileID: 1903199372994655725}
   m_Layer: 0
   m_Name: Spike (19)
-  m_TagString: Trap
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1512,20 +1330,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94b536c8454a8e4dbc60736416548e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!136 &1903199372994655725
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4354620695772734047}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.03000004
-  m_Height: 1.35
-  m_Direction: 1
-  m_Center: {x: -0.00000011920929, y: 0, z: -0.00000007450581}
 --- !u!1 &4504840144500689385
 GameObject:
   m_ObjectHideFlags: 0
@@ -1658,10 +1462,9 @@ GameObject:
   - component: {fileID: 3375025063700815137}
   - component: {fileID: 1447060576333131371}
   - component: {fileID: 1699772690566044196}
-  - component: {fileID: 4471688772490678741}
   m_Layer: 0
   m_Name: Spike (23)
-  m_TagString: Trap
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1741,20 +1544,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94b536c8454a8e4dbc60736416548e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!136 &4471688772490678741
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4721074372285216589}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.03000004
-  m_Height: 1.35
-  m_Direction: 1
-  m_Center: {x: -0.000000059604645, y: 0, z: -0.00000013411045}
 --- !u!1 &4742788723736162463
 GameObject:
   m_ObjectHideFlags: 0
@@ -1767,10 +1556,9 @@ GameObject:
   - component: {fileID: 2337183182878706274}
   - component: {fileID: 6388471719620887861}
   - component: {fileID: 5870880783339177737}
-  - component: {fileID: 1938257934082814983}
   m_Layer: 0
   m_Name: Spike (11)
-  m_TagString: Trap
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1850,20 +1638,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94b536c8454a8e4dbc60736416548e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!136 &1938257934082814983
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4742788723736162463}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.03000004
-  m_Height: 1.35
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000001559966}
 --- !u!1 &5381012168568550686
 GameObject:
   m_ObjectHideFlags: 0
@@ -1876,10 +1650,9 @@ GameObject:
   - component: {fileID: 7619654774071068233}
   - component: {fileID: 7003768007419071763}
   - component: {fileID: 4114152319302501915}
-  - component: {fileID: 2588466012699234931}
   m_Layer: 0
   m_Name: Spike (14)
-  m_TagString: Trap
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1959,20 +1732,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94b536c8454a8e4dbc60736416548e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!136 &2588466012699234931
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5381012168568550686}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.03000004
-  m_Height: 1.35
-  m_Direction: 1
-  m_Center: {x: -0.00000011920929, y: 0, z: -0.00000001559966}
 --- !u!1 &6498488198414915729
 GameObject:
   m_ObjectHideFlags: 0
@@ -1985,10 +1744,9 @@ GameObject:
   - component: {fileID: 7887769294561473294}
   - component: {fileID: 5683566976632180019}
   - component: {fileID: 7729051023578704123}
-  - component: {fileID: 6232081754950376846}
   m_Layer: 0
   m_Name: Spike (8)
-  m_TagString: Trap
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2068,20 +1826,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94b536c8454a8e4dbc60736416548e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!136 &6232081754950376846
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6498488198414915729}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.03000004
-  m_Height: 1.35
-  m_Direction: 1
-  m_Center: {x: -0.000000059604645, y: 0, z: 0.000000044703476}
 --- !u!1 &7988737754048573233
 GameObject:
   m_ObjectHideFlags: 0
@@ -2094,10 +1838,9 @@ GameObject:
   - component: {fileID: 7774036723574702044}
   - component: {fileID: 9209266146058274191}
   - component: {fileID: 1424608298757030806}
-  - component: {fileID: 3509394594282186554}
   m_Layer: 0
   m_Name: Spike (20)
-  m_TagString: Trap
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2177,20 +1920,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94b536c8454a8e4dbc60736416548e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!136 &3509394594282186554
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7988737754048573233}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.03000004
-  m_Height: 1.35
-  m_Direction: 1
-  m_Center: {x: 0.00000011920929, y: 0, z: -0.00000013411045}
 --- !u!1 &8400613382899329991
 GameObject:
   m_ObjectHideFlags: 0
@@ -2203,10 +1932,9 @@ GameObject:
   - component: {fileID: 2690444512136749881}
   - component: {fileID: 8712680459527112858}
   - component: {fileID: 7030722014049807274}
-  - component: {fileID: 4665921817929950295}
   m_Layer: 0
   m_Name: Spike (10)
-  m_TagString: Trap
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2286,20 +2014,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94b536c8454a8e4dbc60736416548e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!136 &4665921817929950295
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8400613382899329991}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.03000004
-  m_Height: 1.35
-  m_Direction: 1
-  m_Center: {x: 0.00000011920929, y: 0, z: -0.00000001559966}
 --- !u!1 &8488654816862985701
 GameObject:
   m_ObjectHideFlags: 0
@@ -2312,10 +2026,9 @@ GameObject:
   - component: {fileID: 2596157186830532516}
   - component: {fileID: 2349615661008159068}
   - component: {fileID: 6982232775981391689}
-  - component: {fileID: 6689989644312741698}
   m_Layer: 0
   m_Name: Spike (5)
-  m_TagString: Trap
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2395,20 +2108,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94b536c8454a8e4dbc60736416548e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!136 &6689989644312741698
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8488654816862985701}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.03000004
-  m_Height: 1.35
-  m_Direction: 1
-  m_Center: {x: 0.00000011920929, y: 0, z: 0.000000044703476}
 --- !u!1 &8754708145403442935
 GameObject:
   m_ObjectHideFlags: 0
@@ -2421,10 +2120,9 @@ GameObject:
   - component: {fileID: 5813863222728958752}
   - component: {fileID: 2313710328982657132}
   - component: {fileID: 4983990575149882366}
-  - component: {fileID: 1015609232401358191}
   m_Layer: 0
   m_Name: Spike (24)
-  m_TagString: Trap
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2504,20 +2202,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94b536c8454a8e4dbc60736416548e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!136 &1015609232401358191
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8754708145403442935}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.03000004
-  m_Height: 1.35
-  m_Direction: 1
-  m_Center: {x: -0.00000011920929, y: 0, z: -0.00000013411045}
 --- !u!1 &8807259615570289792
 GameObject:
   m_ObjectHideFlags: 0
@@ -2530,10 +2214,9 @@ GameObject:
   - component: {fileID: 9015113136989828965}
   - component: {fileID: 1461467890857042896}
   - component: {fileID: 7793560655590142243}
-  - component: {fileID: 1855673112276109807}
   m_Layer: 0
   m_Name: Spike (1)
-  m_TagString: Trap
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2613,20 +2296,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94b536c8454a8e4dbc60736416548e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!136 &1855673112276109807
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8807259615570289792}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.03000004
-  m_Height: 1.35
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: 0.00000010430812}
 --- !u!1 &8962029861253317489
 GameObject:
   m_ObjectHideFlags: 0
@@ -2639,10 +2308,9 @@ GameObject:
   - component: {fileID: 5492227512476836911}
   - component: {fileID: 5706883648262384918}
   - component: {fileID: 6414188131856805959}
-  - component: {fileID: 5026413991097542850}
   m_Layer: 0
   m_Name: Spike (3)
-  m_TagString: Trap
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2722,20 +2390,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94b536c8454a8e4dbc60736416548e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!136 &5026413991097542850
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8962029861253317489}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.03000004
-  m_Height: 1.35
-  m_Direction: 1
-  m_Center: {x: -0.000000059604645, y: 0, z: 0.00000010430812}
 --- !u!1 &8980140386306809351
 GameObject:
   m_ObjectHideFlags: 0
@@ -2748,10 +2402,9 @@ GameObject:
   - component: {fileID: 2021293190330577426}
   - component: {fileID: 5441334761428866137}
   - component: {fileID: 8892732005851659106}
-  - component: {fileID: 4535248165216855004}
   m_Layer: 0
   m_Name: Spike (17)
-  m_TagString: Trap
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2831,17 +2484,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94b536c8454a8e4dbc60736416548e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!136 &4535248165216855004
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8980140386306809351}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.03000004
-  m_Height: 1.35
-  m_Direction: 1
-  m_Center: {x: -0.0000000055879354, y: 0, z: -0.00000007450581}

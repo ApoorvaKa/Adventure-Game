@@ -16,6 +16,8 @@ public class Player : MonoBehaviour
     //audio
     AudioSource _audioSource;
     public AudioClip keyPickUpSnd;
+    // clown explosion sound
+    public AudioClip explodeSnd;
 
     //health system
     
@@ -31,8 +33,6 @@ public class Player : MonoBehaviour
     {
         _navMeshAgent = GetComponent<NavMeshAgent>();
         mainCam = Camera.main;
-        //health system
-        lifet.text = "Life: " + PublicVars.life;
         //music effect
         _audioSource = GetComponent<AudioSource>();
     }
@@ -94,11 +94,10 @@ public class Player : MonoBehaviour
         }
         if(other.CompareTag("Trap")){
             PublicVars.life --;
-            lifet.text = "LostLife!!";
         }
-        if(other.CompareTag("Monster")){
-            PublicVars.life --;
-            lifet.text = "LostLife!!";
+        if (other.CompareTag("Monster")){
+            _audioSource.PlayOneShot(explodeSnd);
+
         }
         StartCoroutine(_wait());
     }

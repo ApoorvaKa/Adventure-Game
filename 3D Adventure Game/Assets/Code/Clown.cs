@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Zombie : MonoBehaviour
+public class Clown : MonoBehaviour
 {
     GameObject player;
     public float move = 0.02f;
@@ -15,6 +15,13 @@ public class Zombie : MonoBehaviour
     void Update()
     {
         transform.position = Vector3.MoveTowards(transform.position, player.transform.position, move);
+        transform.LookAt(player.transform);
     }
 
+    void OnTriggerEnter(Collider other) {
+        if (other.CompareTag("Player")){
+            Destroy(this.gameObject);
+            PublicVars.life--;
+        }
+    }
 }
