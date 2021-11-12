@@ -170,7 +170,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 157912365}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a170830c793183a4d93f02191ce1ed7a, type: 3}
+  m_Script: {fileID: 11500000, guid: d1cd7e1cfc27a4ea3bc838a83dc9cb1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   quitButton: {fileID: 1022686349}
@@ -439,8 +439,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 157912367}
-        m_TargetAssemblyTypeName: TitleScreen, Assembly-CSharp
-        m_MethodName: QuitGame
+        m_TargetAssemblyTypeName: VictoryScene, Assembly-CSharp
+        m_MethodName: Quit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1000,8 +1000,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 157912367}
-        m_TargetAssemblyTypeName: TitleScreen, Assembly-CSharp
-        m_MethodName: StartGame
+        m_TargetAssemblyTypeName: VictoryScene, Assembly-CSharp
+        m_MethodName: RestartGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
